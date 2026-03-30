@@ -2,7 +2,7 @@
   parent: [ClothingHeadBase, Tier3Contraband]
   id: ClothingHeadHatRedsuitFedora
   name: blood-red fedora
-  description: A sharp looking fedora from Gôrleux Menswear.
+  description: A sharp looking fedora from Syndicate-affiliated luxury fashion house Gôrleux. (Not to be confused with Gorlex.)
   components:
   - type: Sprite
     sprite: _Impstation/Clothing/Head/Hats/bloodredfedora.rsi
@@ -31,7 +31,7 @@
   parent: [ClothingShoesBase, ClothingSlotBase, Tier3Contraband]
   id: ClothingShoesRedsuitLeftShoe
   name: Gôrleux loafers
-  description: Ultra comfortable loafers from luxury fashion house Gôrleux. They have a nice weight to them.
+  description: Ultra comfortable loafers from Gôrleux. They have a nice weight to them.
   components:
   - type: Sprite
     sprite: _Impstation/Clothing/Shoes/Misc/gorluxloafersleft.rsi
@@ -55,11 +55,12 @@
   - type: ItemSlots
     slots:
       item:
-        name: asdfghjkl #idk where this shows up so IDK what to type here
+        name: clothing-shoes-shoe
         insertVerbText: sheath-insert-verb
         ejectVerbText: sheath-eject-verb
         insertSound: /Audio/Effects/Footsteps/carpetbarefoot4.ogg
         ejectSound: /Audio/Weapons/pop.ogg
+        priority: 4
         whitelist:
           tags:
           - RightLoafer
@@ -72,7 +73,7 @@
   - type: Appearance
 
 - type: entity
-  parent: [ClothingShoesBase, Tier3Contraband]
+  parent: [ClothingShoesBase, ClothingSlotBase, Tier3Contraband]
   id: ClothingShoesRedsuitRightShoe
   name: Gôrleux loafer
   description: Who throws a shoe? Honestly?

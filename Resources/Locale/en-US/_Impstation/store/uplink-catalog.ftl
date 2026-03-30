@@ -153,3 +153,6 @@ uplink-hotsauces-desc = New from Discount Dan's! 4 levels of heat to put your sp
 
 uplink-taipan-name = Taipan bundle
 uplink-taipan-desc = One "Taipan" Echion crossbow, bundled with a canister of its proprietary liquid ammo.
+
+uplink-redsuit-name = Syndicate Suit
+uplink-redsuit-desc = The Syndicate's well known unarmored blood-red suit, neither bullet resistant nor space-walk capable.

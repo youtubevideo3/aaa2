@@ -607,7 +607,7 @@
   parent: [ClothingUniformBase, ClothingSlotBase, Tier3Contraband]
   id: ClothingUniformJumpsuitRedsuit
   name: blood-red suit
-  description: A completely unarmored suit designed to look dope and swag. Courtesy of Gôrleux Menswear.
+  description: A completely unarmored suit designed to look dope and swag. Courtesy of Gôrleux.
   components:
   - type: Sprite
     sprite: _Impstation/Clothing/Uniforms/Other/redsuit.rsi

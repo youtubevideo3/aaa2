@@ -65,3 +65,18 @@
         - id: WeaponRifleNemesis
         - id: MagazineBR
           amount: 2
+
+- type: entity
+  parent: ClothingBackpackDuffelSyndicateBundle
+  id: ClothingBackpackDuffelSyndicateFilledRedsuit
+  name: syndicate redsuit bundle
+  description: "Contains the Syndicate's signature blood-red suit."
+  suffix: syndicate redsuit bundle
+  components:
+  - type: EntityTableContainerFill
+    containers:
+      storagebase: !type:AllSelector
+        children:
+        - id: ClothingUniformJumpsuitRedsuit
+        - id: ClothingUniformJumpsuitRedsuit
+        - id: ClothingHeadHatRedsuitFedora

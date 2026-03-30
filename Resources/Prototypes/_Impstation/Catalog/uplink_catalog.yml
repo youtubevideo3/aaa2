@@ -773,3 +773,17 @@
     blacklist:
       components:
         - SurplusBundle
+
+- type: listing
+  id: UplinkRedsuit
+  name: uplink-redsuit-name
+  description: uplink-redsuit-desc
+  icon: { sprite: /Textures/_Impstation/Clothing/Uniforms/Other/redsuit.rsi, state: icon }
+  productEntity: ClothingBackpackDuffelSyndicateFilledRedsuit
+  discountCategory: veryRareDiscounts
+  discountDownTo:
+    Telecrystal: 8
+  cost:
+    Telecrystal: 16
+  categories:
+  - UplinkPointless

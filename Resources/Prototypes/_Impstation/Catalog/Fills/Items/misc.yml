@@ -1,6 +1,6 @@
 - type: entity
-  id: ClothingShoesRedsuitLeftShoeFilled
-  parent: ClothingShoesRedsuitLeftShoe
+  id: ClothingShoesRedsuitFilled
+  parent: ClothingShoesRedsuit
   suffix: Filled
   components:
   - type: ContainerFill
